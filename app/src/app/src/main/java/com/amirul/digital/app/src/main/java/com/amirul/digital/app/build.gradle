@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.amirul.digital'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.amirul.digital"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // কোনো ভারী ডিপেনডেন্সি নেই, হালকা ওয়েবভিউ
+}
